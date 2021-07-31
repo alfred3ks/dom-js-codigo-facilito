@@ -1,0 +1,33 @@
+El DOM.
+
+DOM --> document object model
+
+Es la representación de nuestra pagina web, la cual con JS la podemos utilizar y manipular.
+
+El DOM es creado a partir de las etiquetas que nosotros hemos colocado en nuestro HTML.
+
+Por ejemplo.
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Curso de programación</h1>
+    <ul>
+        <li>Java Script</li>
+        <li>Java Script y el DOM</li>
+    </ul>
+</body>
+</html>
+
+La representacion del DOM seria como un arbol. Cada nodo es un elemento. Un elemento no es mas que la representación de una etiqueta HTML con atributos y metodos.
+
+Anexo una imagen donde se puede ver este arbol.
+
+Un elemento puede tener un padre, hermanos, un hijo, toda una familia. Es por medio de la esta representación jerarquica que podemos modificar los elementos, agregar nuevos o eliminarlos.
+
+Para poder modificar el DOM debemos trabajar con el objeto global document.
