@@ -1,8 +1,11 @@
 /*
 Optener elementos mediante ID.
 Los elementos en nuestro html pueden tener un identificador unico. ID.
-En nuestro maquetado tenemos vario ID. En el titulo, tenemos el id=title, para nuestro h2 y el id=description para nuestro parrafo.
+En nuestro maquetado tenemos varios ID. En el titulo, tenemos el id=title, para nuestro h2 y el id=description para nuestro parrafo.
+
 En este ejercicio vamos a optener ambos elementos y los vamos a modificar.
+
+
 
 */
 
