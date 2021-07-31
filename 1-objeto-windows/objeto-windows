@@ -1,0 +1,19 @@
+Vamos a ver el objeto windows en el navegador, para mi caso usare Google Chrome. El navegador ya nos provee de ciertos atributos para que nostros las podamos utilizar. Todos esos atributos y metodos estan en un solo objeto, el objeto window.
+
+Si en la consola ejecutamos: mayus+ctrl+i
+
+window --> enter
+
+Podemos visualizar dicho objeto.
+
+Si expandimos el objeto podemos ver todos sus atributos y metodos.
+
+En esos atributos podemos ver la funcion alert() que podemos usar para mostrar un alerta que sale en la parte superior de la ventana.
+
+El objeto window nos permite realizar acciones sobre la ventana. OJO esto es importante saberlo.
+
+Ahora hay otro objeto que esta dentro del objeto window que es el que nos interesa por ahora, su nombre --> document.
+
+Nos interesa ese objeto debido a que con el vamos a poder realizar acciones sobre nuestra pagina web. Osea sobre el documento.
+
+Atento, acciones sobre la ventana usaremos windows, sobre la pagina usaremos document. Podemos crear, editar e eliminar nodos.
