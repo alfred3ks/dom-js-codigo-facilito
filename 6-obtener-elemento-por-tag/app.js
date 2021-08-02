@@ -6,6 +6,13 @@ Cuando hablamos tag nos referimos a su etiqueta, que pueden ser h1, h2, p, etc.
 Es igual que el ejemplo anterior solo que aqui obtenemos los elementos por medio de tag.
 */
 
+
+const title = document.getElementById('title');
+title.innerHTML = 'Cursos';
+
+const description = document.getElementById('description');
+description.innerHTML = 'Listado de cursos';
+
 const items = document.getElementsByTagName('li');
 
 for ( let i = 0; i < items.length; i++){

@@ -40,6 +40,13 @@ Vamos a obtener los elementos a traves de dicha clase.
 
 */
 
+const title = document.getElementById('title');
+title.innerHTML = 'Cursos';
+
+const description = document.getElementById('description');
+description.innerHTML = 'Listado de cursos';
+
+
 const items = document.getElementsByClassName('list-group-item');
 
 // retorna un listado de elementos:
