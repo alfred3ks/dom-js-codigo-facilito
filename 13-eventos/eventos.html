@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Eventos</title>
+</head>
+<style>
+    .btn {
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-default">
+    </nav>
+</body>
+    <div class="container-fluid">
+        <button id="btn-one" class="btn btn-info" onclick="saluda()">Saludo 1</button>
+    </div>
+
+    <div class="container-fluid">
+        <button id="btn-two" class="btn btn-info">Saludo 2</button>
+    </div>
+
+<script type="text/javascript">
+
+// Primera opcion:
+
+    function saluda() {
+        console.log(`Hola mundo desde JS`);
+    }
+
+// Segunda opcion: Usando el metodo addEventListener(), recibe los parametros, uno el evento(click) y dos una funcion como callback.
+
+const button = document.getElementById('btn-two');
+button.addEventListener('click',function(){
+    console.log('Hola mundo desde evento addEventListener.');
+})
+
+</script>
+
+</html>
