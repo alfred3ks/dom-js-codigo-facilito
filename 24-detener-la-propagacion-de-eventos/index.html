@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Web de cursos</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand">Web de Cursos</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2 class="display-2" id="title">Título</h2>
+            <p class="description_container" id="description">Breve descripcion</p>
+
+            <form action="" id="course-form">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="title-form" placeholder="Título">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="description-form" placeholder="Description">
+                    <small class="form-text- text-muted" id="descriptionHelp">Escribe una breve descripcion</small>
+                </div>
+                <button id="create-course" type="submit" class="btn btn-primary">
+                    Crear curso
+                </button>
+            </form>
+
+        </div>
+
+
+        <div class="row">
+            <ul class="list-group">
+                <li class="list-group-item" id="first-course">Python</li>
+                <li class="list-group-item">JavaScript</li>
+                <li class="list-group-item">Java 8</li>
+                <li class="list-group-item">Ruby</li>
+                <li class="list-group-item">C#</li>
+                <li class="list-group-item">Kotlin</li>
+                <li class="list-group-item">Perl</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <p class="copyright text-mute">&copy; alfred3ks</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="./app.js" type="text/javascript"></script>
+
+</html>
